@@ -1,0 +1,12 @@
+@media screen and (max-width: 576px) {
+    .navbar-btn{
+        display: none;
+    }
+#hampbar{
+        display: block;
+        font-size: large;
+    }
+.navbar-menu{
+    border: none;
+}
+}

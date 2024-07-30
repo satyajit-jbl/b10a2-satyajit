@@ -1,4 +1,55 @@
 *{
-    background-color: rgb(175, 167, 167);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*The box-sizing property allows us to include the padding and border in an element's total width and height.*/
+    background-color: rgb(91, 84, 84);
+    /* max-width: 1200px; */
+    font-family: "Inter", sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+}
+/* Navbar content start here */
+#fitness{
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 800;
+    font
+}
+.navbar-main{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1060px;
+    padding: 20px;
+    margin: 0 auto;
+        
+}
+.navbar-menu{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 5px; */
+    padding: 5px;
+    border-radius: 20px;
+    height: 38px;
+}
+.navbar-btn{
+    color: rgb(255, 255, 255);
+    font-size: 1.12rem;
+    font-weight: 400;
+    border: none;
+    margin-left: 1rem;
+}
+#btn-home{
+    background-color: rgb(230, 83, 60);
+    width: 92px;
+    height: 38px;
+    border-radius: 48px;
+}
+#hampbar{
+    display: none;
+}
