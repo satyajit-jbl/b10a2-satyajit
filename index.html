@@ -6,6 +6,19 @@
     <title>Fitness</title>
     <!-- fontawesome cdn -->
     <script src="https://kit.fontawesome.com/a204cd4eb6.js" crossorigin="anonymous"></script>
+    <!-- miama font cdn -->
+    <script>@font-face {
+        font-family: 'Miama';
+        font-style: italic;
+        font-weight: 400;
+        src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama-Regular.woff') format('woff');
+    }
+    @font-face {
+        font-family: 'Miama';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama.woff') format('woff');
+    }</script>
     <!-- link with css -->
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/responsive.css">
@@ -24,18 +37,25 @@
         </nav>
         <!-- banner saction start here -->
          <section>
-            <div>
-                <h1>Get body in shape & stay healthy</h1>
-                <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
-                <div>
-                    <button>Join Club Now!</button>
-                    <button>Download App</button>
+            <div class="banner-content">
+                <div class="banner-title">
+                    <h1 class="banner-text">Get body in<br> <span id="shape">shape</span> & stay<br> healthy</h1>
+                    <p class="text-description">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                    <div>
+                        <button class="btn-primary">Download App</button>
+                        <button class="btn-primary">Join Club Now!</button>
+                    </div>
                 </div>
+                <div class="banner-image">
+                    <img src="./images/Images 2.png" alt="">
+                    <button class="banner-badge">
+                        <div class="circle"></div>350+<br>Video Tutorial</button>
+                </div>
+                
             </div>
-            <img src="./images/Images 2.png" alt="">
          </section>
 
-         <!-- banner saction start here -->
+         <!-- banner saction ends here -->
     </header>
 
 </body>
