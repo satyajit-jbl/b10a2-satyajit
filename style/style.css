@@ -63,6 +63,10 @@ body{
     display: none;
 }
 /*SHARED STYLE*/
+.display-flex{
+    display: flex;
+    border: 1px solid red;
+}
 .btn-primary{
     color: rgb(255, 255, 255);
     width: 224px;
@@ -75,14 +79,29 @@ body{
     background: rgb(230, 83, 60);
 
 }
+.text-title{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+
+}
 .text-description{
     color: rgba(255, 255, 255, 0.5);
 font-family: Inter;
-font-size: 16px;
+font-size: 1rem;
 font-weight: 400;
-line-height: 24px;
+line-height: 1.5rem;
 letter-spacing: 0.5px;
 text-align: left;
+}
+.text-description-bold{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.15rem;
+font-weight: 600;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
 }
 
 
@@ -140,16 +159,19 @@ text-align: left;
  .banner-badge{
     display: flex;
     position: absolute;
-    width: 160px;
-    height: 70px;
+    /* width: 160px; */
+    height: 80px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background-color: rgba(48, 48, 48, 0.54);
     left: 140px;
     top: 320px;
-    
+    justify-content: center;
+    align-items: center;
+    /* opacity: 80%; */
  }
+ 
  .circle{
     width: 40px;
     height: 40px;
@@ -158,6 +180,33 @@ text-align: left;
 
  }
  .badge-title{
-
+    color: rgb(250, 250, 249);
+    font-size: 1.5rem;
+    font-weight: 900;
  }
  
+ /* change habit style */
+ .change-habit{
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-top: 50px;
+ }
+ .change-habit-content{
+    border: 1px solid blue;
+    /* justify-items: center; */
+    /* align-items: center; */
+    justify-content: center;
+ }
+ /* .change-habit-content img{
+    justify-content: center;
+    align-items: center;
+ } */
+ .change-habit img{
+    border-radius: 50%;
+    /* align-items: center;
+    justify-content: space-between */
+    padding: 0px 50px;
+ }
+ .banner-badge-bg{
+    background-color: none;
+ }
